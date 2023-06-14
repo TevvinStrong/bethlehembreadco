@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "@mui/material";
 
 //COMMENT: Image Imports
 import BreadVintage from "../../../../Images/BreadVintage.jpeg";
@@ -20,6 +21,7 @@ export const MidSection = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam,
+          <Button variant="contained">READ MORE</Button>
         </MidSizeAboutSectionText>
       </MidSizeAboutSection>
     </MidSectionContainer>
