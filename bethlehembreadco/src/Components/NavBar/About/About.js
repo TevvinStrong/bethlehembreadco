@@ -1,7 +1,13 @@
+// COMMENT: Package Imports
 import React from "react";
 
+// COMMENT: Import styles from styles.ts
+import { AboutDetails } from "./AboutDetails/AboutDetails";
+
 const About = () => {
-  return <span>Hello from the About page</span>;
+    return ( 
+      <AboutDetails />
+    )
 };
 
 export default About;
