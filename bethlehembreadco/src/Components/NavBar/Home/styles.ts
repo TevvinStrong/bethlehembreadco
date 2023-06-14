@@ -7,9 +7,9 @@ export const HomeContainer = styled.div`
 export const CompanyLogo = styled.img`
   display: block;
   border-radius: 50%;
-  width: 50%;
-  height: 83%;
+  width: 24%;
+  height: 34%;
   position: absolute;
-  top: 7%;
-  right: 25%;
+  top: 16%;
+  right: 38%;
 `;
