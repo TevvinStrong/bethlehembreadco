@@ -8,14 +8,14 @@ export const MidSectionContainer = styled.div`
 `;
 export const MidSizeImage = styled.img`
   height: 30%;
-  width: 36%;
+  width: 34%;
+  margin-left: 15%;
   margin-top: 7%;
-  margin-right: 33%;
-  border-radius: 5%;
+  padding-right: 1%;
 `;
 export const MidSizeAboutSection = styled.div`
-  margin-top: 19%;
-  margin-left: 7%;
+  margin-top: 7%;
+  margin-right: 15%;
   background-color: #b5a280;
 `;
 export const MidSizeAboutSectionText = styled.span``;

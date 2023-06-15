@@ -12,6 +12,8 @@ export const NavList = styled.ul`
   flex-direction: row;
   justify-content: center;
   padding-left: 0px;
+  margin-left: 5%;
+  margin-right: 9%;
 `;
 
 export const NavListItem = styled.li`
