@@ -4,6 +4,7 @@ import React from "react";
 // COMMENT: File Imports
 import Jumbotron from "../../Jumbotron/Jumbotron";
 import MidSection from "./MidSection/MidSection";
+import RecentPosts from "./RecentPosts/RecentPosts";
 
 // COMMENT: Image Imports
 import BusinessLogo from "../../../Images/BethlehemBreadCo.jpeg";
@@ -20,6 +21,7 @@ const Home = () => {
         alt="Business Logo for BehtlehemBreadCo."
       />
       <MidSection />
+      <RecentPosts />
     </HomeContainer>
   );
 };

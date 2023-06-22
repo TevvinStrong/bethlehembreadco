@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "@mui/material";
 
 //COMMENT: Image Imports
 import BreadVintage from "../../../../Images/BreadVintage.jpeg";
@@ -10,9 +9,16 @@ import {
   MidSizeImage,
   MidSizeAboutSection,
   MidSizeAboutSectionText,
+  MidSizeAboutSectionButton,
+  MidSizeAboutSectionButtonContainer,
 } from "./styles.ts";
 
 export const MidSection = () => {
+  //COMMENT: This function listens for the button onClick event.
+  const OpenAboutMePage = () => {
+    //COMMENT: right now all we log is a string to make sure the eventListener works.
+    window.console.log("Button Clicked!!");
+  };
   return (
     <MidSectionContainer>
       <MidSizeImage src={BreadVintage} alt="Vintage style bread" />
@@ -21,8 +27,15 @@ export const MidSection = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam,
-          <Button variant="contained">READ MORE</Button>
         </MidSizeAboutSectionText>
+        <MidSizeAboutSectionButtonContainer>
+          <MidSizeAboutSectionButton
+            variant="contained"
+            onClick={OpenAboutMePage}
+          >
+            READ MORE
+          </MidSizeAboutSectionButton>
+        </MidSizeAboutSectionButtonContainer>
       </MidSizeAboutSection>
     </MidSectionContainer>
   );
