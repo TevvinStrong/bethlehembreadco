@@ -34,9 +34,10 @@ export const BlogImg = styled.img`
     border-radius: 50%;
 `;
 
-export const BlogPostContainer = styled.div`
+export const BlogPostContainer = styled.a`
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: thin solid #363c22;
     height: 60%;
     width: 15%;
@@ -45,6 +46,12 @@ export const BlogPostContainer = styled.div`
     margin-top: 1%;
     margin-bottom: 5%;
     color: #363c22;
+
+    &:hover {
+        transform: scale(1.1);
+        transition: .5s all ease-in-out;
+        cursor: pointer;
+    }
 `;
 
 export const BlogPostImg = styled.img`
@@ -53,14 +60,21 @@ export const BlogPostImg = styled.img`
 `;
 
 export const BlogTabContainer = styled.div`
+ 
+`;
+
+export const StyledTabPanels = styled(Tab.Panels)`
 `;
 
 export const StyledTabList = styled(Tab.List)`
 `;
 
 export const StyledTab = styled(Tab)`
-    margin: 1%;
-    padding: 0.5rem 1rem;
+    display: inline-flex;
+    padding: 0.5% 1%;
+    margin: 2%;
+    justify-content: center;
+    align-items: center;
     font-size: 1rem;
     font-weight: 500;
     color: #4a5568;
@@ -96,6 +110,8 @@ export const FooterContainer = styled.footer`
 
 export const StyledPanel = styled(Tab.Panel)`
     display: flex;
+    justify-content: center;
+    align-items: center;
 `;
 
 

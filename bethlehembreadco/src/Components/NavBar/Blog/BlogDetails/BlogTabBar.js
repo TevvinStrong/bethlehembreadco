@@ -9,6 +9,7 @@ import {
   BlogTabContainer,
   StyledPanel,
   StyledTab,
+  StyledTabPanels,
   StyledTabList,
 } from "./styles.ts";
 
@@ -22,7 +23,7 @@ export const BlogTabBar = () => {
           <StyledTab>Recipe</StyledTab>
           <StyledTab>Baking Hacks</StyledTab>
         </StyledTabList>
-        <Tab.Panels>
+        <StyledTabPanels>
           <StyledPanel>
             <BlogPosts />
             <BlogPosts />
@@ -35,7 +36,7 @@ export const BlogTabBar = () => {
             <BlogPosts />
             <BlogPosts />
           </StyledPanel>
-        </Tab.Panels>
+        </StyledTabPanels>
       </Tab.Group>
     </BlogTabContainer>
   );
