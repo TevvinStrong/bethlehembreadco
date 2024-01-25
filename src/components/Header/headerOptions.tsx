@@ -1,8 +1,7 @@
-// import { useTransition } from 'react';
 import { Facebook, Instagram } from '@mui/icons-material'
 import styled from 'styled-components'
 
-import { headerOptionsMenu } from '../../../en.json'
+import stringTranslations  from '../../Translations'
 
 const StyledHeaderOptions = styled.div`
     display: flex;
@@ -39,13 +38,12 @@ const StyledInstagram = styled(Instagram)`
 `;
 
 const HeaderOptions = () => {
-    // const { t } = useTransition();
     return (
         <StyledHeaderOptions>
            <StyledNavBar>
-              <StyledHeaderItem href='/'>{headerOptionsMenu.menuItem_1}</StyledHeaderItem>
-              <StyledHeaderItem href='/recipies'>{headerOptionsMenu.menuItem_2}</StyledHeaderItem>
-              <StyledHeaderItem href='/about'>{headerOptionsMenu.menuItem_3}</StyledHeaderItem>
+              <StyledHeaderItem href='/'>{stringTranslations.headerOptionsMenu.menuItem_1}</StyledHeaderItem>
+              <StyledHeaderItem href='/recipies'>{stringTranslations.headerOptionsMenu.menuItem_2}</StyledHeaderItem>
+              <StyledHeaderItem href='/about'>{stringTranslations.headerOptionsMenu.menuItem_3}</StyledHeaderItem>
            </StyledNavBar>
             <StyledSocialIcons>
                 <StyledFacebook />
