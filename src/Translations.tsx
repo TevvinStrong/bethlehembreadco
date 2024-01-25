@@ -5,6 +5,9 @@ const stringTranslations = {
     "menuItem_2": "RECIPIES",
     "menuItem_3": "ABOUT"
   },
+  "Logo": {
+    "name": "Bethlehem Bread Co."
+  }
 };
 
 export default stringTranslations;
