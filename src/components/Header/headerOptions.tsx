@@ -19,8 +19,8 @@ const StyledHeaderItem = styled.a`
     text-decoration: none;
     margin-right: 30px;
     color: #FFFF;
-    font-family: sans-serif;
-    font-size: 12px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 16px;
 `;
 
 const StyledSocialIcons = styled.div`
@@ -30,11 +30,13 @@ const StyledSocialIcons = styled.div`
 const StyledFacebook = styled(Facebook)`
     margin-right: 30px;
     color: #FFFF;
+    cursor: pointer;
 `;
 
 const StyledInstagram = styled(Instagram)`
     margin-right: 30px;
     color: #FFFF;
+    cursor: pointer;
 `;
 
 const HeaderOptions = () => {
