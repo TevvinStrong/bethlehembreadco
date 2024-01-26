@@ -46,6 +46,7 @@ const HeaderOptions = () => {
               <StyledHeaderItem href='/'>{stringTranslations.headerOptionsMenu.menuItem_1}</StyledHeaderItem>
               <StyledHeaderItem href='/recipies'>{stringTranslations.headerOptionsMenu.menuItem_2}</StyledHeaderItem>
               <StyledHeaderItem href='/about'>{stringTranslations.headerOptionsMenu.menuItem_3}</StyledHeaderItem>
+              <StyledHeaderItem href='/BLOG'>{stringTranslations.headerOptionsMenu.menuItem_4}</StyledHeaderItem>
            </StyledNavBar>
             <StyledSocialIcons>
                 <StyledFacebook />
